@@ -1,5 +1,120 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
 
+:root{
+    --primary-color: #64748B;
+    --secondary-color: #94A3B8;
+    --ow: #E2E8F0;
+}
+
 body{
     font-family: 'Ubuntu', sans-serif;
+}
+hr{
+    margin: 50px 0;
+}
+.uc{
+    text-transform: uppercase;
+}
+
+/* container css */
+.container{
+    padding: 0 5vw;
+    text-align: justify;
+}
+.container-center{
+    max-width: 500px;
+    margin: auto;
+    text-align: justify;
+}
+
+/* links */
+.link{
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.link-primary{
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 5px;
+    
+}
+.link-secondary{
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 5px;
+}
+
+/* lists */
+.list-non-bullet{
+    list-style: none;
+}
+.list-item-inline{
+    display: inline;
+    padding: 0 10px;
+}
+
+/* nav */
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+}
+.nav-brand{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.nav-list{
+    text-align: right;
+}
+.nav-list .link{
+    color: white;
+}
+.active{
+    font-weight: bold;
+}
+
+/* header */
+.hero{
+    padding: 20px;
+}
+.hero-img{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+.hero-heading{
+    text-align: center;
+    font-size: 2rem;
+    color: var(--secondary-color);
+}
+.hero-heading-inverted{
+    color: var(--primary-color);
+}
+
+/* section */
+.section h3{
+    text-align: center;
+}
+.ow{
+    background-color: var(--ow);
+}
+
+/* footer */
+
+.footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 20px;
+    border-top-right-radius: 20px;
+}
+.footer-header{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.footer ul{
+    padding: 0;
+}
+.footer .link{
+    color: white;
 }
