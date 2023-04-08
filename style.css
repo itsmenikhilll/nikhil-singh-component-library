@@ -23,7 +23,7 @@ hr{
 
 /* container css */
 .container{
-    padding: 0 5vw;
+    padding: 20px 20px;
     text-align: justify;
 }
 .container-center{
@@ -104,17 +104,21 @@ hr{
 }
 
 /* section */
+.section{
+    padding: 20px 20px;
+}
 .section h3{
+    margin: 0;
     text-align: center;
 }
 .ow{
+    padding: 20px 20px;
     background-color: var(--ow);
 }
 
 /* footer */
 
 .footer{
-    margin-top: 10px;
     background-color: var(--primary-color);
     text-align: center;
     padding: 20px;
