@@ -135,3 +135,17 @@ hr{
 .footer .link{
     color: white;
 }
+
+/* blog images */
+.img-blog{
+    padding: 10px 0;
+    max-width: 70vw;
+    display: block;
+}
+.container-blog{
+    max-width: 70vw;
+    margin: auto;
+}
+.container-blog p{
+    text-align: justify;
+}
